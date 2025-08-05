@@ -21,7 +21,7 @@ export default function Home() {
           {/* Left Side: Text */}
           <div className="md:w-1/2 space-y-6 text-center md:text-left">
             <h2 className="text-4xl font-bold text-gray-800">
-              Hi, I'm <span className="text-blue-700">Sanika Mamidwar</span>
+              Hi, I&apos;m <span className="text-blue-700">Sanika Mamidwar</span>
               <br />
               <span className="text-xl text-purple-600 font-semibold">
                 Aspiring Full Stack Developer

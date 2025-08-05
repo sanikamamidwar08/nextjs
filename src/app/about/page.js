@@ -23,7 +23,7 @@ export default function AboutPage() {
 
         {/* Personal Intro */}
         <p className="text-gray-700 text-lg mb-8 text-center">
-          Hi, I'm <span className="text-blue-700 font-semibold">Sanika Mamidwar</span>, an aspiring Full Stack Developer. I enjoy building beautiful UIs and solving real-world problems through code. Let me tell you more about myself!
+          Hi, Im <span className="text-blue-700 font-semibold">Sanika Mamidwar</span>, an aspiring Full Stack Developer. I enjoy building beautiful UIs and solving real-world problems through code. Let me tell you more about myself!
         </p>
 
         {/* Stats Cards */}

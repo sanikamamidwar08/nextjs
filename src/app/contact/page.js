@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Link from "next/link";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -91,20 +92,20 @@ export default function Contact() {
 
         {/* Contact Info */}
         <div data-aos="fade-left" className="flex flex-col justify-center bg-blue-100 dark:bg-gray-800 rounded-lg p-8 shadow-xl space-y-6">
-          <h3 className="text-2xl font-semibold text-blue-800 dark:text-white">Let's Connect</h3>
+          <h3 className="text-2xl font-semibold text-blue-800 dark:text-white">Let&apos;s Connect</h3>
           <p className="text-gray-700 dark:text-gray-300">
-          I'm open to internships & full-time job opportunities. Feel free to reach out!
+          I&apos;m open to internships & full-time job opportunities. Feel free to reach out!
           </p>
           <div className="text-gray-800 dark:text-gray-200 space-y-2">
             <p><FaPhoneAlt className="inline mr-2" /> +91-XXXXXXXXXX</p>
             <p><MdEmail className="inline mr-2" /> sanikamamidwar@gmail.com</p>
             <div className="flex gap-4 mt-2">
-              <a href="https://github.com/YOUR-ID" target="_blank" className="hover:scale-110 transition">
+              <Link href="https://github.com/YOUR-ID" target="_blank" className="hover:scale-110 transition">
                 <FaGithub className="text-2xl text-black dark:text-white" />
-              </a>
-              <a href="https://linkedin.com/in/YOUR-ID" target="_blank" className="hover:scale-110 transition">
+              </Link>
+              <Link href="https://linkedin.com/in/YOUR-ID" target="_blank" className="hover:scale-110 transition">
                 <FaLinkedin className="text-2xl text-blue-700" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
